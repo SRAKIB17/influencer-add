@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/* common style */
+/* smart .influencer */
+.smart-influencer {
+    background-color: whitesmoke;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    margin: 285px 90px 170px 90px;
+}
+.influence {
+    display: block;
+}
+.influencer-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+}
+
+.smart-influencer p {
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+.preorder {
+    display: flex;
+    text-decoration: none;
+    background-color: #5DA3FA;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 20px;
+    align-items: center;
+    color: whitesmoke;
+}
+.preorder:hover {
+    box-shadow: 2px 2px 10px 2px rgba(0, 255, 255, 0.472);
+}
+.smart-influencer div img {
+    border-radius: 50%;
+    width: 440px;
+    height: 410px;
+    border: 2px solid blue;
+}
+/* popular collection */
+.collections {
+    background-color: whitesmoke;
+    padding: 30px;
+    margin: 0 170px 160px 170px;
+    border-radius: 20px;
+}
+.collections > h2 {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+.collection {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 47px 30px;
+}
+.collection .item {
+    padding: 14px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 2px rgba(71, 77, 77, 0.096);
+}
+.collection .item:hover {
+    box-shadow: 2px 2px 10px 2px rgba(0, 255, 255, 0.472);
+    animation: droping 0.3s ease-in-out 1;
+}
+@keyframes droping {
+    0% {
+        opacity: 0;
+        
+    }
+    100% {
+        opacity: 1;
+    }
+    
+}
+.collection img {
+    width: 300px;
+    height: 256px;
+}
+.item {
+    display: block;
+}
