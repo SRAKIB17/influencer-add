@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/* common style */
+i {
+    padding-left: 2px;
+}
 /* header style */
 header h2 {
     padding-top: 88px;
@@ -26,16 +30,17 @@ header h2 {
     font-family: 'Poppins', sans-serif;
 }
 .preorder {
+    font-size: 16px;
     display: flex;
     text-decoration: none;
-    background-color: #5DA3FA;
+    background-color: #3401ffc7;
     padding: 10px;
     width: fit-content;
     border-radius: 20px;
     align-items: center;
     color: whitesmoke;
 }
-.preorder:hover {
+.preorder:hover ,.more-collection:hover {
     box-shadow: 2px 2px 10px 2px rgba(0, 255, 255, 0.472);
 }
 .smart-influencer div img {
@@ -87,17 +92,31 @@ header h2 {
 .item {
     display: block;
 }
+.collections .more-collection {
+    display: flex;
+    float: right;
+    width: fit-content;
+    height: 30px;
+    margin-top: 50px;
+    justify-content: end;
+    font-size: 16px;
+    text-decoration: none;
+    align-items: center;
+    color: red;
+}
 /* join section  */
-.join img {
-    width: 100%;
-    height: 400px;
-    margin-bottom: 10px;
+.join{
     position: relative;
+    width: 100%;
+    height: 350px;
+    background-image: url(images/june-25-blog-nano-influencers.png);
+    margin-bottom: 10px;
 }
 .join a {
     display: flex;
+    font-size: 20px;
     text-decoration: none;
-    background-color: #5DA3FA;
+    background-color: #7940ff;
     padding: 10px;
     width: fit-content;
     border-radius: 20px;
@@ -105,6 +124,10 @@ header h2 {
     color: whitesmoke;
     position: absolute;
     right: 3px;
+    top: 300px;
+}
+.join a:hover {
+    box-shadow: 2px 2px 12px 2px rgba(0, 255, 255, 0.472);
 }
 /* footer */
 footer {
