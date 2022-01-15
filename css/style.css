@@ -11,7 +11,6 @@ header h2 {
 /* smart .influencer */
 .smart-influencer {
     padding: 30px;
-    border-radius: 20px;
     display: flex;
     align-items: center;
     margin: 200px 90px 170px 90px;
@@ -64,6 +63,7 @@ header h2 {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 47px 30px;
+    justify-content: center;
 }
 .collection .item {
     padding: 14px;
@@ -92,25 +92,36 @@ header h2 {
 .item {
     display: block;
 }
-.collections .more-collection {
-    display: flex;
+.more-collection {
     float: right;
+}
+.more-collection a{
     width: fit-content;
     height: 30px;
     margin-top: 50px;
-    justify-content: end;
+    margin-bottom: 20px;
     font-size: 16px;
     text-decoration: none;
-    align-items: center;
     color: red;
+}
+.rating {
+    display: flex;
+}
+.rating > span {
+    margin-left: 5px;
+}
+.checked {
+    color: orange;
 }
 /* join section  */
 .join{
     position: relative;
-    width: 100%;
-    height: 350px;
-    background-image: url(images/june-25-blog-nano-influencers.png);
     margin-bottom: 10px;
+    margin-top: 10px;
+}
+.join img {
+    width: 100%;
+    height: 400px;
 }
 .join a {
     display: flex;
@@ -131,6 +142,7 @@ header h2 {
 }
 /* footer */
 footer {
+    clear: both;
     background-color: #03203C;
     padding-bottom: 20px;
     padding-top: 20px;
