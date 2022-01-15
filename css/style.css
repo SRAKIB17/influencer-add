@@ -64,6 +64,7 @@ header h2 {
     grid-template-columns: repeat(3,1fr);
     gap: 47px 30px;
     justify-content: center;
+    margin-bottom: 20px;
 }
 .collection .item {
     padding: 14px;
@@ -95,9 +96,8 @@ header h2 {
 .more-collection {
     float: right;
 }
-.more-collection a{
+.more-collection a h3 {
     width: fit-content;
-    height: 30px;
     margin-top: 50px;
     margin-bottom: 20px;
     font-size: 16px;
@@ -142,7 +142,6 @@ header h2 {
 }
 /* footer */
 footer {
-    clear: both;
     background-color: #03203C;
     padding-bottom: 20px;
     padding-top: 20px;
