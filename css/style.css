@@ -118,7 +118,7 @@ nav ul li:hover {
 .more-collection {
     float: right;
 }
-.more-collection a h3 {
+.more-collection a {
     width: fit-content;
     margin-top: 50px;
     margin-bottom: 20px;
