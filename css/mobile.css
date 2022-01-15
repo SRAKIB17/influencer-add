@@ -2,8 +2,12 @@
     body {
         width: 100%;
     }
-    .main {
-        clear: right;
+    /* navigation */
+    nav h2, nav ul li a {
+        font-size: 16px;
+    }
+    nav ul li {
+        margin-left: 5px;
     }
     /* header  */
     header h2 {

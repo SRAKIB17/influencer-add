@@ -1,4 +1,11 @@
 @media only screen and (min-width: 768px) and (max-width: 1020px) {
+    /* navigation */
+    nav h2 {
+        font-size: 16px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
     /* header style */
     header h2 {
         padding-top: 60px;
